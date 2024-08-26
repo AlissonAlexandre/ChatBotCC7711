@@ -1,0 +1,59 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem?", "Bom dia", "Boa tarde", "Boa noite"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "pipe_definicao",
+    "patterns":["O que é o programa PIPE?","O que é PIPE?", "Por favor, me explique o que é PIPE?"],
+    "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
+  },
+  { "tag": "pipe_etapas",
+    "patterns":["Quais as etapas do Pipe?","Há diferentes etapas no programa?","Há diferentes etapas no PIPE?","Há diferentes etapas no programa PIPE?"],
+    "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares);\nb) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);\nc) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e\nd) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  { "tag": "fase1_obrigatoria",
+    "patterns":["A Fase 1 é obrigatória? Posso ir direto para a Fase 2?", "A Fase 1 é obrigatória?", "Posso ir direto para a Fase 2?"],
+    "responses": ["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta”."]
+  },
+  { "tag": "objetivos_pipe",
+    "patterns":["Quais os objetivos do PIPE?"],
+    "responses": ["1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+  },
+  { "tag": "resumo_pipe",
+    "patterns":["Pode resumir o programa PIPE?"],
+    "responses": ["O PIPE-FAPESP é um programa que apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo."]
+  },
+  { "tag": "responsavel_pipe",
+    "patterns":["Quem é responsável pelo PIPE?"],
+    "responses": ["A FAPESP é a responsável pelo PIPE."]
+  },
+  { "tag": "politica_propriedade_intelectual_pipe",
+    "patterns":["Pode me explicar a política de propriedade intelectual do PIPE?", "Politica de propriedade intelectual", "Quem detém os direitos intelectuais da pesquisa após o programa?"],
+    "responses": ["As empresas apoiadas pelo Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação.\nA empresa, portanto, poderá explorar, licenciar e proteger os resultados do projeto apoiado pela Fundação da forma que achar mais conveniente, seguindo sua estratégia de negócio, devendo manter a FAPESP informada em relação à propriedade intelectual para fins de acompanhamento. "]
+  },
+  { "tag": "requisitos_pesquisa_pipe",
+    "patterns":["Quais requisitos minha pesquisa precisa cumprir?", "O que minha pesquisa precisa conter?"],
+    "responses": ["As propostas de pesquisa devem demonstrar claramente (1) que a empresa possui uma boa equipe com competência para executar esse projeto específico, (2) que há um bom potencial de inovação que demanda pesquisa científica ou tecnológica e (3) que essa inovação levará ao desenvolvimento de um produto, processo ou serviço economicamente sustentável e que trará ganhos comerciais para a empresa.\nAs propostas devem conter título, resumo, objetivos, plano de atividades, metodologia, cronograma, informações sobre a empresa, potencial comercial do produto, processo ou serviço, descrição da equipe, bibliografia e orçamento."]
+  },
+  { "tag": "itens_financiaveis",
+    "patterns":["O que pode ser financiado pelo programa?","Quais os itens financiaveis pelo PIPE?"],
+    "responses": ["Material permanente (p.ex., equipamentos para pesquisa)\nMaterial de consumo (p.ex., insumos, reagentes)\nServiços de terceiros (p.ex., consultoria, testes, desenvolvimento de partes não centrais da pesquisa)\nBolsa de Pesquisa Pequenas Empresas (para o coordenador e, excepcionalmente mediante justificativa circunstanciada, para outro pesquisador principal da equipe)\nBolsas de Treinamento Técnico em 5 níveis, de acordo com os critérios de enquadramento da FAPESP."]
+  },
+  { "tag": "requisitos_empresa_pipe",
+    "patterns":["Quais requisitos minha empresa precisa cumprir?","O que minha empresa precisa conter?"],
+    "responses": ["• A Pequena Empresa executora do projeto deve ter até 250 empregados, ter sede e realizar a pesquisa no Estado de São Paulo.\n• A pequena empresa poderá ser constituída após a aprovação do mérito da proposta para a Fase 1. Nesse caso, a FAPESP só emitirá o Termo de Outorga (TO) após a constituição formal da empresa.\n• Os projetos de pesquisa selecionados para apoio pelo PIPE deverão ser desenvolvidos por pesquisadores que tenham vínculo empregatício com pequenas empresas ou que estejam associados a elas para sua realização.\n• A titulação acadêmica não é um requisito essencial para o pesquisador PIPE; a experiência profissional e capacitação técnica são primordiais."]
+  },
+  { "tag": "valor_maximo_financiamento_etapa",
+    "patterns":["Qual o valor máximo de financiamento em cada etapa?", "quanto posso pedir de financiamento no PIPE?", "quanto posso pedir de financiamento?", "qual o valor maximo de financiamento?"],
+    "responses": ["• Fase 1: O valor máximo de financiamento previsto para a Fase 1 é R$ 200.000,00 (duzentos mil reais) para cada projeto, incluindo todos os custos, considerando também as Bolsas de Treinamento Técnico e a Bolsa de Pesquisa em Pequena Empresa.\n• Fase 2: O valor máximo de financiamento é de até R$ 1.000.000,00 (um milhão de reais) para cada projeto, incluindo todosos custos, considerando também as Bolsas de Treinamento Técnico e a Bolsa de Pesquisa em Pequenas Empresas;\n• Fase 3: Os recursos para a Fase 3 devem ser obtidos pela empresa junto ao mercado ou outras agências de financiamento a empresas. A FAPESP lança também, em certas ocasiões, editais em conjunto com a FINEP e outros órgãos para financiamento específicos para a Fase 3."]
+  },
+  { "tag": "programa_inteiro",
+    "patterns":["Me fale em detalhes sobre todo o programa?"],
+    "responses": ["Fase 1:\nA Fase 1 tem duração prevista de até nove meses e destina-se à realização de pesquisas sobre a viabilidade técnica da pesquisa proposta.\na) O valor máximo de financiamento previsto para a Fase 1 é R$ 200.000,00 (duzentos mil reais) para cada projeto, incluindo todos os custos, considerando também as Bolsas de Treinamento Técnico e a Bolsa de Pesquisa em Pequena Empresa.\nb) A pequena empresa deverá desenvolver internamente pelo menos 2/3 (em valor) das atividades desta Fase, podendo, excepcionalmente, e desde que a proposta contenha a justificativa técnica e comercial para isso e seja aprovada pela FAPESP, subcontratar o 1/3 (em valor) restantes de outras empresas ou consultores.\nc) Ao final de 9 meses, o Pesquisador Responsável deverá apresentar um Relatório Técnico Final da Fase 1 e a Prestação de Contas dos recursos investidos pela FAPESP.\nc.1) Se houver interesse em submeter a proposta para receber financiamento na Fase 2, ao final do 6º mês da Fase 1, um Relatório de Progresso deverá ser apresentado juntamente com a proposta para a Fase 2. A qualidade dos resultados apresentados nesse relatório, bem como a da nova proposta, serão determinantes para a qualificação para a Fase 2 do programa.\n\nFase 2:\nA Fase 2, com duração de até 2 anos, destina-se ao desenvolvimento da proposta de pesquisa propriamente dita.\na) O valor máximo de financiamento é de até R$ 1.000.000,00 (um milhão de reais) para cada projeto, incluindo todos os custos, considerando também as Bolsas de Treinamento Técnico e a Bolsa de Pesquisa em Pequenas Empresas.\nb) A pequena empresa deverá desenvolver internamente pelo menos 50% das atividades desta Fase, podendo excepcionalmente, e desde que a proposta contenha a justificativa técnica e comercial para isso e seja aprovada pela FAPESP, subcontratar os 50% restantes de outras empresas ou consultores.\nc) A concessão será feita para os projetos que demonstrem sucesso na Fase 1 e a avaliação dará prioridade às propostas que documentem compromisso de apoio financeiro de alguma fonte para o desenvolvimento da Fase 3 (de desenvolvimento de novos produtos comerciais baseados nas Fases anteriores).\nc.1) Para receber o financiamento para a Fase 2, a pequena empresa terá, ainda, que apresentar um Plano de Negócios para a comercialização dos novos produtos e descrever como a empresa vai obter os financiamentos necessários para isso.\nd) Ao longo dos até 24 meses de vigência da Fase 2, a empresa deverá desenvolver e demonstrar, à FAPESP, nos Relatórios Técnicos, esforços para o desenvolvimento da produção, da comercialização e do financiamento indispensáveis ao ingresso na Fase 3.\n\nFase 2 direta:Empresas que já possuem resultados equivalentes aos da Fase 1, poderão entrar diretamente com proposta de pesquisa para a Fase 2 do programa. Nesse caso, deve ser apresentada justificativa circunstanciada para a solicitação direta à Fase 2, indicando a realização da Fase 1 por conta própria, além de toda a documentação obrigatória para a Fase 2, incluindo um Plano de Negócios.\n\nFase 3:\nNa Fase 3 do PIPE espera-se que a pequena empresa realize o desenvolvimento comercial e industrial dos produtos ou processos, com base nos resultados das Fases 1 e 2.\nIsso não implica que esse desenvolvimento comercial e industrial não possa ser realizado concomitantemente às Fases 1 e 2 nos casos em que isso for possível.\nOs recursos para a Fase 3 devem ser obtidos pela empresa junto ao mercado ou outras agências de financiamento a empresas. A FAPESP lança também, em certas ocasiões, editais em conjunto com a FINEP e outros órgãos para financiamento específicos para a Fase 3.\nA demonstração de perspectivas concretas para o financiamento da Fase 3 é elemento considerado positivo na avaliação das propostas para a Fase 1 e Fase 2.\n"]
+  }
+]
+}
